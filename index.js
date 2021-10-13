@@ -105,17 +105,19 @@ const questions = [
     },
 ];
 
-async function init() {
-    let answers = await inquirer.prompt(questions)
-    console.log(answers);
-    writeToFile();
+// function to write the README file
+function writeToFile(filename, data) 
+{
+    return fs.writeFileSync(path.join(process.cwd(), filename), data);
 }
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function to initialize program
+function init() 
+{
+    inquirer.prompt(questions).then(response => {
+    writeToFile("sampleREADME.md", generateMarkdown(response))
+    });
+}
 
-// TODO: Create a function to initialize app
-//function init() {}
-
-// Function call to initialize app
+// function call to initialize program
 init();
