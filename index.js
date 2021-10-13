@@ -101,7 +101,7 @@ const questions = [
         type: "checkbox",
         message: "How is this project licensed?",
         name: "license",
-        choices: ["Apache", "Boost Software", "Creative Commons", "GNU", "ISC", "MIT", "Mozilla Public", "The Unlicense", "Other"],
+        choices: ["Apache", "MIT", "GPLv3 License", "Unlicense"],
     },
 ];
 
