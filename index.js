@@ -47,6 +47,11 @@ const questions = [
         name: "goals",
     },
     {
+        type: "input",
+        message: "What motivated you to build this project",
+        name: "motivation",
+    },
+    {
         type: "Input",
         message: "What are your project's installation instructions?",
         name: "install",
@@ -58,8 +63,13 @@ const questions = [
         name: "usage",
     },
     {
+        type: "input",
+        message: "What technologies does your project use?",
+        name: "tech",
+    },
+    {
         type:"input",
-        message: "What problems did you face when creating this this project?",
+        message: "What problems did you face when designing this this project?",
         name: "problems",
     },
     {
@@ -69,11 +79,6 @@ const questions = [
         default: "npm run test",
     },
     {
-        type:"input",
-        message:"What is the the link to the deployed page?",
-        name:"site",
-    },
-    {
         type: "input",
         message: "Who needs credit on this project?",
         name: "credits",
@@ -81,12 +86,7 @@ const questions = [
     {
         type: "input",
         message: "How does someone contribute to this project?",
-        name: "contribution",
-    },
-    {
-        type:"input",
-        message:"What resources did you use for this project?",
-        name:"resources",
+        name: "contribute",
     },
     {
         type: "input",
