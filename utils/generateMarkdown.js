@@ -23,7 +23,25 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  function renderLicenseLink(license) {
+    var licenseURL = "";
+    switch (license) {
+      case "Apache":
+        licenseURL = `[Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)`;
+        break;
+      case "MIT":
+        licenseURL = `[MIT License](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)`;
+        break;
+      case "GPLv3":
+        licenseURL = `[GPLv3 License](https://opensource.org/licenses/)`;
+        break;
+        case "Unlicense":
+      licenseURL = `[$(license)](http://unlicense.org/)`;
+      break;
+  }
+    return licenseURL;
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
