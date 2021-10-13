@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
-const generateMarkdown = require('.utils/generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // list of comments to help me write my questions
 
@@ -105,6 +105,11 @@ const questions = [
     },
 ];
 
+async function init() {
+    let answers = await inquirer.prompt(questions)
+    console.log(answers);
+    writeToFile();
+}
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
