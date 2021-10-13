@@ -36,6 +36,12 @@ const questions = [
         name: "description",
     },
     {
+        type: "checkbox",
+        message: "How is this project licensed?",
+        name: "license",
+        choices: ["Apache", "MIT", "GPLv3 License", "Unlicense"],
+    },
+    {
         type: "input",
         message: "What goals did you have when building your project?",
         name: "goals",
@@ -78,6 +84,11 @@ const questions = [
         default: "npm run test",
     },
     {
+        type:"input",
+        message:"What is the the link to the deployed page?",
+        name:"URL",
+    }
+    {
         type: "input",
         message: "Who needs credit on this project?",
         name: "credits",
@@ -96,12 +107,6 @@ const questions = [
         type: "input",
         message: "What is your GitHub username?",
         name: "github"
-    },
-    {
-        type: "checkbox",
-        message: "How is this project licensed?",
-        name: "license",
-        choices: ["Apache", "MIT", "GPLv3 License", "Unlicense"],
     },
 ];
 
