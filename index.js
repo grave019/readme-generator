@@ -98,7 +98,7 @@ const questions = [
         name: "github"
     },
     {
-        type: "list",
+        type: "checkbox",
         message: "How is this project licensed?",
         name: "license",
         choices: ["Apache", "Boost Software", "Creative Commons", "GNU", "ISC", "MIT", "Mozilla Public", "The Unlicense", "Other"],
