@@ -54,6 +54,68 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
   ${renderLicenseSection(data.license)}
+
+  ## Description
+
+  ${data.description}
+  
+  Click the link below to visit my deployed page.
+
+  <!-- [URL](${data.site}) -->
+
+  ## Table of Contents
+  
+  * [Project Goals](#goals)
+  * [Usage](#usage) 
+  * [Installation](#installation)  
+  * [Test](#test)
+  * [Problems](#problems)
+  * [Acknowledgement](#acknowledgement)
+  * [Contributions](#contributions)
+  * [Resources](#resources)
+  * [License](#license) 
+  * [Contact Me](#contactme) 
+  
+  ## Project Goals
+
+  ${data.goals}
+
+  ##Usage
+
+  ${data.usage}
+
+  ## Installation
+  
+  ${data.install}  
+
+  ## Test
+
+  ${data.test}
+
+  ## Problems
+
+  ${data.problems}
+
+  ## Images of the Deployed Page
+
+  ## Acknowledgements
+
+  ${data.credits}
+
+  ## Contributions
+
+  ${data.contribution}
+
+  ## Resources
+
+  ${data.resources}
+
+  ## Contact Me
+  
+  GitHub Username: [@${data.github}](https://github.com/${data.github})
+
+  ${data.contact}
+
 `;
 }
 
