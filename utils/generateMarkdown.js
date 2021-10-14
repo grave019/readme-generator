@@ -108,7 +108,7 @@ function generateMarkdown(data) {
 node 
   ${data.resources}
 
-  ## Contact Me
+  ## Contact
   
   GitHub Username: ${data.github} [@${data.github}](https://github.com/${data.github})
 
