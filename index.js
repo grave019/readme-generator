@@ -86,7 +86,12 @@ const questions = [
     {
         type: "input",
         message: "How does someone contribute to this project?",
-        name: "contribute",
+        name: "contribution",
+    },
+    {
+        type:"input",
+        message:"What resources were used to make this project?",
+        name:"resources",
     },
     {
         type: "input",

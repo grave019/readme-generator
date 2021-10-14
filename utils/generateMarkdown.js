@@ -96,6 +96,8 @@ function generateMarkdown(data) {
 
   ## Visualization
 
+  placeholder to add images or other media
+
   ## Acknowledgements
 
   ${data.credits}
@@ -105,7 +107,7 @@ function generateMarkdown(data) {
   ${data.contribution}
 
   ## Resources
-node 
+ 
   ${data.resources}
 
   ## Contact
