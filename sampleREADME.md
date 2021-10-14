@@ -1,10 +1,12 @@
-# readme generator
+# Readme Generator
+
+  
   
   This project uses MIT.
 
   ## Description
 
-  allows user a template builder for readme files for future projects
+  to build readme template generator using prompts from the command line.
   
   Click the link below to visit my deployed page.
 
@@ -21,16 +23,16 @@
   * [Acknowledgements](#acknowledgements)
   * [Contributions](#contributions)
   * [Resources](#resources)
-  * [License](#license) 
-  * [Contact](#contact) 
+  * [License](#license)
+  * [Contact](#contact)
   
   ## Goals
 
-  to make a readme generator that could be used for all future projects
+  I wanted to make a readme generator I could use for future projects.
 
   ## Usage
 
-  readme template builder 
+  To build a customizable readme template for future projects.
 
   ## Installation
   
@@ -42,9 +44,11 @@
 
   ## Problems
 
-  getting the shield badges to show up correctly in the code.
+  getting the badges to display correctly 
 
   ## Visualization
+
+  placeholder to add images or other media
 
   ## Acknowledgements
 
@@ -52,15 +56,15 @@
 
   ## Contributions
 
-  undefined
+  submit a fork request and you can submit your code to contribute.
 
   ## Resources
-node 
-  undefined
+ 
+  shields.io, eloquent javascript
 
   ## Contact
   
-  GitHub Username: grave019 [@grave019](https://github.com/grave019)
+  GitHub Username: grave019 [grave019](https://github.com/grave019)
 
-  graves.brent@gmail.com
+  brent.r.graves82@gmail.com
 

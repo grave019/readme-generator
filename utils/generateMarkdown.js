@@ -9,11 +9,11 @@ function renderLicenseBadge(license) {
       case "MIT":
         licenseIcon = "![MIT License](https://img.shields.io/badge/l/atomic-design-ui.svg?)";
         break;
-      case "GPLv3 License":
+      case "GPLv3":
           licenseIcon = "![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)";
         break;
-      case "Unlicense":
-        licenseIcon = "![Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)";
+      case "none":
+        licenseIcon = "";
         break;
     }
     return licenseIcon;
@@ -25,17 +25,18 @@ function renderLicenseLink(license) {
     var licenseURL = "";
     switch (license) {
       case "Apache":
-        licenseURL = `[Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)`;
+        licenseURL = "[Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)";
         break;
       case "MIT":
-        licenseURL = `[MIT License](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)`;
+        licenseURL = "[MIT License](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)";
         break;
       case "GPLv3":
-        licenseURL = `[GPLv3 License](https://opensource.org/licenses/)`;
+        licenseURL = "[GPLv3 License](https://opensource.org/licenses/)";
         break;
-        case "Unlicense":
-      licenseURL = `[$(license)](http://unlicense.org/)`;
-      break;
+      case "none":""
+        licenseURL = "";
+        break;
+
   }
     return licenseURL;
 }
@@ -49,7 +50,9 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
   ${renderLicenseBadge(data.license)}
+  
   ${renderLicenseSection(data.license)}
 
   ## Description
@@ -110,9 +113,15 @@ function generateMarkdown(data) {
  
   ${data.resources}
 
+  ## License
+
+  ${renderLicenseBadge(data.license)}
+  
+  ${renderLicenseSection(data.license)}
+
   ## Contact
   
-  GitHub Username: ${data.github} [@${data.github}](https://github.com/${data.github})
+  GitHub Username: ${data.github} [${data.github}](https://github.com/${data.github})
 
   ${data.contact}
 
