@@ -62,22 +62,23 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   
-  * [Project Goals](#goals)
+  * [Goals](#goals)
   * [Usage](#usage) 
   * [Installation](#installation)  
   * [Test](#test)
   * [Problems](#problems)
-  * [Acknowledgement](#acknowledgement)
+  * [Visualization](#visualization)
+  * [Acknowledgements](#acknowledgements)
   * [Contributions](#contributions)
   * [Resources](#resources)
   * [License](#license) 
-  * [Contact Me](#contactme) 
+  * [Contact](#contact) 
   
-  ## Project Goals
+  ## Goals
 
   ${data.goals}
 
-  ##Usage
+  ## Usage
 
   ${data.usage}
 
@@ -93,7 +94,7 @@ function generateMarkdown(data) {
 
   ${data.problems}
 
-  ## Images of the Deployed Page
+  ## Visualization
 
   ## Acknowledgements
 
@@ -104,12 +105,12 @@ function generateMarkdown(data) {
   ${data.contribution}
 
   ## Resources
-
+node 
   ${data.resources}
 
   ## Contact Me
   
-  GitHub Username: [@${data.github}](https://github.com/${data.github})
+  GitHub Username: ${data.github} [@${data.github}](https://github.com/${data.github})
 
   ${data.contact}
 
