@@ -39,7 +39,7 @@ const questions = [
         type: "checkbox",
         message: "How is this project licensed?",
         name: "license",
-        choices: ["Apache", "MIT", "GPLv3", "none"],
+        choices: ["Apache", "GPLv3 License", "Unlicense"],
     },
     {
         type: "input",
@@ -69,7 +69,7 @@ const questions = [
     },
     {
         type:"input",
-        message: "What problems did you face when designing this project?",
+        message: "What problems did you face when designing this this project?",
         name: "problems",
     },
     {

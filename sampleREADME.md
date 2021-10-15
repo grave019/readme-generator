@@ -1,12 +1,10 @@
-# Readme Generator
-
+# readme generator
   
-  
-  This project uses MIT.
+  This project uses Apache,MIT,GPLv3 License,Unlicense.
 
   ## Description
 
-  to build readme template generator using prompts from the command line.
+  building a readme generator using command line prompt
   
   Click the link below to visit my deployed page.
 
@@ -23,16 +21,16 @@
   * [Acknowledgements](#acknowledgements)
   * [Contributions](#contributions)
   * [Resources](#resources)
-  * [License](#license)
-  * [Contact](#contact)
+  * [License](#license) 
+  * [Contact](#contact) 
   
   ## Goals
 
-  I wanted to make a readme generator I could use for future projects.
+  
 
   ## Usage
 
-  To build a customizable readme template for future projects.
+  
 
   ## Installation
   
@@ -44,7 +42,7 @@
 
   ## Problems
 
-  getting the badges to display correctly 
+  
 
   ## Visualization
 
@@ -52,19 +50,25 @@
 
   ## Acknowledgements
 
-  Brent Graves
+  
 
   ## Contributions
 
-  submit a fork request and you can submit your code to contribute.
+  
 
   ## Resources
  
-  shields.io, eloquent javascript
+  
+
+  ## License
+
+  
+  
+  This project uses Apache,MIT,GPLv3 License,Unlicense.
 
   ## Contact
   
-  GitHub Username: grave019 [grave019](https://github.com/grave019)
+  GitHub Username:  [](https://github.com/)
 
-  brent.r.graves82@gmail.com
+  
 
