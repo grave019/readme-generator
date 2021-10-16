@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
+const generateMarkdown = require('./generateMarkdown');
 
 // list of comments to help me write my questions
 
